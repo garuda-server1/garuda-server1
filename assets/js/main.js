@@ -295,7 +295,7 @@ jQuery(function ($) {
         loop: false,
         slidesPerView: 1,
         spaceBetween: 0,
-        navigation: false,
+        navigation: true,
         pagination: {
             el: '.full-slider .swiper-pagination',
             clickable: true
@@ -352,7 +352,7 @@ jQuery(function ($) {
             spaceBetween: 30,
             breakpoints: {
                 767: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                     spaceBetween: 30
                 },
                 1023: {
@@ -390,7 +390,7 @@ jQuery(function ($) {
             spaceBetween: 30,
             breakpoints: {
                 767: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                     spaceBetween: 30
                 },
                 1023: {

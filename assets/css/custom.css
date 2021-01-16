@@ -18,3 +18,9 @@
   width: 100%;
   height: auto !important;
 }
+
+.full-slider.swiper-container-horizontal>.swiper-pagination-bullets {
+  position: absolute!important;
+  top: initial!important;
+  bottom: 5px;
+}
