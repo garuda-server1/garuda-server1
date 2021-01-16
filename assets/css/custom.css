@@ -1,0 +1,20 @@
+.swiper-lazy{
+    width: 600px;
+     height: 300px;
+     border: 1px solid green;
+     background-size: cover;
+   }
+
+   #slider {
+    position: relative;
+    width: 100%;
+    padding: 85px 0 !important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.slider-h-100 {
+  width: 100%;
+  height: auto !important;
+}
