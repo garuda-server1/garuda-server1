@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
         form.append("password",password);
         
         var settings = {
-          "url": "http://127.0.0.1:8000/api/public/auth/",
+          "url": "http://108.175.14.226:2021/api/public/auth/",
           "method": "POST",
           "timeout": 0,
           "processData": false,
@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
             }
 
           
-            var redirect=host+"/Play_Ground/Garuda/garuda-server1.github.io/dashboard.html";
+            var redirect=host+"https://garuda-iptv.tk/dashboard.html";
            
             window.location.href=redirect;
             
@@ -117,7 +117,7 @@ form.append("re_package",package);
 form.append("re_password",con_password);
 
 var settings = {
-  "url": "http://127.0.0.1:8000/api/public/register/",
+  "url": "http://108.175.14.226:2021/api/public/register/",
   "method": "POST",
   "timeout": 0,
   "headers": {
