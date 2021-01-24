@@ -15,7 +15,7 @@ jQuery(document).ready(function($){
         form.append("password",password);
         
         var settings = {
-          "url": "http://108.175.14.226:2021/api/public/auth/",
+          "url": "https://garuda-cdnserver1.tk/api/public/auth/",
           "method": "POST",
           "timeout": 0,
           "processData": false,
@@ -117,7 +117,7 @@ form.append("re_package",package);
 form.append("re_password",con_password);
 
 var settings = {
-  "url": "http://108.175.14.226:2021/api/public/register/",
+  "url": "https://garuda-cdnserver1.tk/api/public/register/",
   "method": "POST",
   "timeout": 0,
   "headers": {
