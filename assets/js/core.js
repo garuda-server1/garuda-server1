@@ -200,13 +200,14 @@ $.ajax(settings).done(function (response) {
 
     function closeSession() {
       deleteItems();
-      window.location.href="/index.html";
+     
      
 
     }
 
     function deleteItems() {
       sessionStorage.clear();
+      //window.location.href="/index.html";
     }
 
 
