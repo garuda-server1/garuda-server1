@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
             }
 
           
-            var redirect=host+"/dashboard.html";
+            var redirect="/dashboard.html";
            
             window.location.href=redirect;
             
@@ -173,7 +173,7 @@ $.ajax(settings).done(function (response) {
 
 
    if (sessionStorage.getItem('user_id') === null  | sessionStorage.getItem('user_id') === 'undefined' ) {
-    window.location.href=redirect;
+    window.location.href='/index.html';
   }
   else{
      $('#user_name').text('Hi '+sessionStorage.getItem("name")+'  Welcome');
