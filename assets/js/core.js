@@ -61,9 +61,9 @@ jQuery(document).ready(function($){
             }
 
           
-            var redirect="/dashboard.html";
+            //var redirect="/dashboard.html";
            
-            window.location.href=redirect;
+            window.location.href='/dashboard.html';
             
           }
 
@@ -206,7 +206,7 @@ $.ajax(settings).done(function (response) {
 
     function closeSession() {
       deleteItems();
-      window.location.href=host+"/Play_Ground/Garuda/garuda-server1.github.io/index.html";
+      window.location.href="/index.html";
      
 
     }
