@@ -1,7 +1,7 @@
 var host = location.origin;
 jQuery(document).ready(function($){
 
- 
+ //TOKEN OUTH
 
     $('#login_form').submit(function(e) {
         e.preventDefault();
