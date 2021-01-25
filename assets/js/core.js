@@ -1,4 +1,3 @@
-var host = location.origin;
 jQuery(document).ready(function($){
 
  //TOKEN OUTH
@@ -173,7 +172,7 @@ $.ajax(settings).done(function (response) {
 
 
    if (sessionStorage.getItem('user_id') === null  | sessionStorage.getItem('user_id') === 'undefined' ) {
-    window.location.href='/index.html';
+   // window.location.href='/index.html';
   }
   else{
      $('#user_name').text('Hi '+sessionStorage.getItem("name")+'  Welcome');
@@ -186,11 +185,6 @@ $.ajax(settings).done(function (response) {
 
      
 
-
-     
-     
-
-   
   
   }
 
