@@ -10,7 +10,7 @@ jQuery(document).ready(function($){
         var form = new FormData();
         var email=$('#email').val();
         var password=$('#password').val();
-        form.append("api_token", "xRKWuAxhdGL26cVXg3QwyNVUEYfnkZhwoo4mduVVSdyXJga12IZJqxDQQWqR");
+        form.append("api_token", "LyMCk6MBGqO8qqNmM8iGPtBZH0HitV0ZI4fp2NoB6Qy3p00ITedMEzGj4OAC");
         form.append("email", email);
         form.append("password",password);
         
@@ -104,7 +104,7 @@ if(password != con_password)
 else{
  
     var form = new FormData();
-form.append("api_token", "xRKWuAxhdGL26cVXg3QwyNVUEYfnkZhwoo4mduVVSdyXJga12IZJqxDQQWqR");
+form.append("api_token", "LyMCk6MBGqO8qqNmM8iGPtBZH0HitV0ZI4fp2NoB6Qy3p00ITedMEzGj4OAC");
 form.append("re_name",name);
 form.append("re_email", email);
 form.append("re_phone", phone);
