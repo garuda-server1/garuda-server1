@@ -181,9 +181,7 @@ $.ajax(settings).done(function (response) {
      $('#package_name_package').text(sessionStorage.getItem("package"));
      $('#package_expire_package').text(sessionStorage.getItem("expire_at"));
      $('#package_status_package').text(sessionStorage.getItem("subscription_status"));
-
-
-     
+   
 
   
   }
@@ -200,14 +198,13 @@ $.ajax(settings).done(function (response) {
 
     function closeSession() {
       deleteItems();
-     
-     
+         
 
     }
 
     function deleteItems() {
       sessionStorage.clear();
-      //window.location.href="/index.html";
+      window.location.href="/index.html";
     }
 
 
