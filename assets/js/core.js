@@ -186,7 +186,16 @@ $.ajax(settings).done(function (response) {
   
   }
 
+  function closeSession() {
+    deleteItems();
        
+
+  }
+
+  function deleteItems() {
+    sessionStorage.clear();
+    window.location.href="/index.html";
+  }
         
     });
 
@@ -196,16 +205,7 @@ $.ajax(settings).done(function (response) {
 
 
 
-    function closeSession() {
-      deleteItems();
-         
-
-    }
-
-    function deleteItems() {
-      sessionStorage.clear();
-      window.location.href="/index.html";
-    }
+   
 
 
 
