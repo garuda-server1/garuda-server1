@@ -61,7 +61,7 @@ jQuery(document).ready(function($){
             }
 
           
-            var redirect=host+"https://garuda-iptv.tk/dashboard.html";
+            var redirect=host+"/dashboard.html";
            
             window.location.href=redirect;
             
